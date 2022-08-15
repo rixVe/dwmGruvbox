@@ -83,6 +83,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_w,      spawn,          SHCMD("brave") },
 	{ MODKEY,                       XK_g,      spawn,          SHCMD("gimp") },
 	{ MODKEY,                       XK_m,      spawn,          SHCMD("pavucontrol") },
+	{ MODKEY|ControlMask,           XK_Delete,    spawn,          SHCMD("alacritty -e htop") },
 	{0,                             XK_Print,  spawn,          SHCMD("flameshot gui") },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
