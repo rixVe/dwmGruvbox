@@ -83,7 +83,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_w,      spawn,          SHCMD("brave") },
 	{ MODKEY,                       XK_g,      spawn,          SHCMD("gimp") },
 	{ MODKEY,                       XK_m,      spawn,          SHCMD("pavucontrol") },
-	{ MODKEY,                       XK_p,      spawn,          SHCMD("rofi -show power-menu -modi power-menu:~/.config/rofi/rofi-power-menu") },
+	{ MODKEY,                       XK_p,      spawn,          SHCMD("sh /home/piotr/.config/dmenu/scripts/powermenu.sh") },
 	{ MODKEY|ControlMask,           XK_Delete, spawn,          SHCMD("alacritty -e htop") },
 	{0,                             XK_Print,  spawn,          SHCMD("flameshot gui") },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
