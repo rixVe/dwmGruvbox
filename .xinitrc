@@ -25,6 +25,11 @@ xinput --set-prop 10 'libinput Accel Profile Enabled' 0, 1
 xinput --set-prop 11 'libinput Accel Profile Enabled' 0, 1
 xinput --set-prop 12 'libinput Accel Profile Enabled' 0, 1
 xinput --set-prop 8 'libinput Accel Profile Enabled' 0, 1
+
+# Touchpad settings
+xinput set-prop 11 301 1
+xinput set-prop 11 280 1
+
 # Keyboard
 setxkbmap pl
 
