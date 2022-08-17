@@ -33,9 +33,7 @@ xinput set-prop 11 280 1
 # Keyboard
 setxkbmap pl
 
-# Polkit
-/usr/lib/xfce-polkit/xfce-polkit &
-
+# Two monitor settings
 my_laptop_external_monitor=$(xrandr --query | grep 'HDMI-0')
 if [[ $my_laptop_external_monitor = *connected* ]]; then
 	xrandr --output HDMI-0 --mode 1920x1080 --refresh 144 --primary --output DP-2 --off 
