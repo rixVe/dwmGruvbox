@@ -19,7 +19,7 @@ static const char dmenufont[]       = "Iosevka:size=12";
 static const char col_bgnorm[]       = "#1d2021";
 static const char col_bgsel[]        = "#d79921";
 
-static const char col_bordnorm[]       = "#444444";
+static const char col_bordnorm[]       = "#504945";
 static const char col_bordsel[]        = "#d79921";
 
 static const char col_fg[]       = "#ebdbb2";
@@ -41,7 +41,6 @@ static const Rule rules[] = {
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Gimp",     NULL,       NULL,       1 << 3,            0,           -1 },
 	{ "discord",  NULL,       NULL,       1 << 2,            0,           -1 },
-	{ NULL,       "spotify",       NULL,       1 << 2,            0,           -1 },
 };
 
 /* layout(s) */
